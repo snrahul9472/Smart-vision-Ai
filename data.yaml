@@ -1,0 +1,25 @@
+# data.yaml
+path: /content/drive/MyDrive/weapon_detection  # Root dataset path
+train: train/images  # Relative to 'path'
+val: val/images      # Relative to 'path'
+test: test/test      # For final evaluation
+
+# Number of classes
+nc: 9
+
+# Class names (must match your label files EXACTLY)
+names: [
+  'Automatic_Rifle',
+  'Bazooka',
+  'Handgun',
+  'Knife',
+  'Grenade_Launcher',
+  'Shotgun',
+  'SMG',
+  'Sniper',
+  'Sword'
+]
+
+# Optional (recommended for weapon detection)
+# AutoAnchor: True  # Uncomment if detecting small weapons
+# download: https://your-dataset-url.com  # For sharing
